@@ -1,0 +1,14 @@
+combination logic optimization
+squeezing the logic 
+direct optimisaton
+boolean logic optimisatoin
+for example 
+  y = ((a.b)+c)'
+  if a=0;
+  y = c'
+we can also do this with cmos logic
+
+
+boolean logic optimisation 
+  assign y = a?(b?c:(c?a:0)):(!c)
+  this can be optimized into y=a(.)c
