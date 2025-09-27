@@ -1,0 +1,7 @@
+sequential loogic optimisiation
+
+  sequential constant propagation
+  mainly used in flops
+  state optimisation:- optimiisation of unused state
+  cloning :- physical aware
+  retimimg:-
