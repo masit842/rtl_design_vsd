@@ -1,1 +1,29 @@
+gate level simulation
+  running the test bench with netlist as deesign under test
+  netlist is logically same as rtl code
+same test bench will align with the design
 
+why gls
+  verify the logical correctness afterr synthesys
+  ensuring the timing of the design is met.
+
+gls using verilog
+                                               ________
+design ----------------------------------->   |         |
+gatelevel verilog models------------------>   |iverilog | ----------> vcd file -----------> gtkwave 
+test bench ------------------------------->   |_________|
+
+
+synthesys simulation mismatch
+    missing sensitivity list
+
+
+blocking and non-blocking statements in verilog
+  blocking
+    this comes when we use the always block
+    it executes as the order 
+    first statement first annd second statement second
+
+  non-blocking
+    executed allthe rhs when always block is entered
+    paralal evaluation
